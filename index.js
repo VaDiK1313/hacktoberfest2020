@@ -7,8 +7,8 @@ const app = express();
 app.get("/", (req, res) => {
   res.send("index");
 });
-app.get("/info", (req, res) => {
-    res.send("info");
+app.get("/infos", (req, res) => {
+    res.send("infos");
   });
 
 
